@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Fredoka', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1,
+h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #000;
+
+}
+
+p {
+  color: #777;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.btn {
+  color: #fff;
+  padding: 7px 15px;
+  background: #7c58fa;
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width:1200) {
+  .container {
+    width: 100%;
+    padding: 0px 30px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@media only screen and (max-width:768) {
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  h1,
+  h2 {
+    font-size: 1.2rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .jobs_item {
+    width: 300px;
+  }
+
+  .search_panel {
+    row-gap: 1rem;
+  }
+
+  .search_panel_01,
+  .search_panel_03 select {
+    padding: 7px 20px;
+    font-size: 0.7px;
+  }
+
+  .search_panel_02 {
+    padding: 5px 20px;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width:576) {
+  .search_panel_02 {
+    display: none;
+
   }
 }

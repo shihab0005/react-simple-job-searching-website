@@ -1,0 +1,18 @@
+.header {
+    width: 100%;
+    height: 150px;
+    background: #7c58fa;
+    line-height: 150px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.header h1 {
+    color: #fff;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin: auto;
+}

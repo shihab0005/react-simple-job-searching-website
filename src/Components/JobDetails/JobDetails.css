@@ -1,0 +1,89 @@
+.details_wrapper {
+    margin-top: -40px;
+    padding: 30px;
+    background: rgb(247, 243, 243);
+    border-radius: 10px;
+}
+
+.details_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.details_top h1 {
+    color: #7c58fa;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.details_top button {
+    padding: 10px 25px;
+    border: 2px solid rgb(187, 157, 218);
+    border-radius: 5px;
+    background-color: rgb(255, 217, 217);
+    font-size: 0.9rem;
+    font-weight: 600;
+
+}
+
+.details_top button a {
+    text-decoration: none;
+    color: rgb(88, 103, 167);
+}
+
+.about_job h6 {
+    font-size: 1.1rem;
+    color: #777;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.about_job h1 {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.about_job span {
+    font-size: 0.9rem;
+    color: #7c58fa;
+    font-weight: 400;
+
+}
+
+.about_job {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.job_desc {
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+
+.requirements h1,
+.responsibility h1 {
+    margin-bottom: 10px;
+}
+
+.requirements p,
+.responsibility p {
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+.rquirement_item,
+.responsibility_item {
+    padding-left: 30px;
+}
+
+.rquirement_item li,
+.responsibility_item li {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
